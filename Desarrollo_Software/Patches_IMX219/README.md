@@ -1,25 +1,3 @@
-# Conexión de la cámara de Raspberry Pi (Sensor IMX219, V2.1) con Nvidia Jetson TX2
-
-## Introducción
-
-En esta guía explicaremos todos los pasos seguidos para la correcta generación de los ficheros necesarios en la conexión del **sensor IMX219**. Para este propósito en primer lugar, definiremos los pasos a seguir en el desarrollo para la implementación de los módulos de cámra. Todos los recursos que hemos utilizado para el desarrollo de esta guía, se encuentran al final de la misma.
-
-## Preparación de elementos necesarios (Hardware/Software)
-
-Antes de comenzar con el desarrollo es necesario contar con una serie de elementos básicos tanto de software como de hardware. Comenzaremos con los elementos de hardware necesarios y continuaremos enumerando los elementos de software.
-
-### Hardware
-
-Lo primero que necesitaremos será el kit de desarrollo de [Nvidia Jetson TX2](https://www.nvidia.es/autonomous-machines/embedded-systems-dev-kits-modules/). Por otro lado, necesitaremos un dispositivo que nos permita conectar las cámaras a la Jetson TX2, en nuestro caso hemos optado por el conector [J20 de Auvidea](https://auvidea.com/j20/). Por último, necesitaremos los módulos de cámara que implementaremos en nuestra placa. En este caso tenemos dos opciones si hablamos de módulos compatibles con Raspberry Pi. Podemos optar por la [versión 2.1](https://www.raspberrypi.org/products/camera-module-v2/) o por la [versión 1.3](https://uk.pi-supply.com/products/raspberry-pi-camera-board-v1-3-5mp-1080p). Optaremos por implementar la versión más actualizada de este sensor, esta es la versión 2.1.
-
-- Sensor OV5647 (Versión 1.3 de cámara Rpi)
-
-<p align="center">
-  <img width="150" src="https://www.dexterindustries.com/wp-content/uploads/2015/07/Raspberry-Pi-Camera.jpg">
-</p>
-     
-- Sensor IMX219 (Version 2.1 de cámara Rpi)
-
 # Camera connection of Raspberry Pi (Sensor IMX219, V2.1) with Nvidia Jetson TX2
 
 ## Introduction
